@@ -34,3 +34,23 @@ main {
     color: $dc-light-primary;
     font-size: 14px;
 }
+
+.footer2 {
+    background-image: url('../img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .footer2-container {
+        height: 450px;
+
+        .link-container {
+            height: 370px;
+        }
+    }
+
+}
+
+.footer3 {
+    background-color: $dc-dark-secondary;
+    color: $dc-light-primary;
+}
