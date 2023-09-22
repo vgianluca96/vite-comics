@@ -4,7 +4,7 @@
 $dc-blue-primary: #0282F9;
 $dc-dark-primary: #1C1C1C;
 $dc-dark-secondary: #303030;
-$dc-light-pimary: #ffffff;
+$dc-light-primary: #ffffff;
 
 nav {
     ul {
@@ -22,5 +22,11 @@ nav {
 
 main {
     background-color: $dc-dark-primary;
-    color: $dc-light-pimary;
+    color: $dc-light-primary;
+}
+
+.footer1 {
+    background-color: $dc-blue-primary;
+    color: $dc-light-primary;
+    font-size: 14px;
 }
