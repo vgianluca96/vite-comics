@@ -5,6 +5,7 @@ $dc-blue-primary: #0282F9;
 $dc-dark-primary: #1C1C1C;
 $dc-dark-secondary: #303030;
 $dc-light-primary: #ffffff;
+$dc-grey-primary: #a3a3a3;
 
 body {
     min-width: 1200px;
@@ -41,10 +42,24 @@ main {
     background-size: cover;
 
     .footer2-container {
-        height: 450px;
+        height: 430px;
 
         .link-container {
-            height: 370px;
+            height: 420px;
+
+            a {
+                text-decoration: none;
+                color: $dc-grey-primary
+            }
+        }
+
+        .dc-image {
+
+            width: 600px;
+            height: 100%;
+            background-image: url('../img/dc-logo-bg.png');
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
 

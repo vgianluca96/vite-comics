@@ -24,7 +24,9 @@ export default {
     <AppFooter2 />
 
     <div class="footer3">
-      <h1>ciao</h1>
+      <div class="container w-75">
+        <h1>ciao</h1>
+      </div>
     </div>
 
   </footer>

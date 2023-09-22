@@ -60,11 +60,11 @@ export default {
 <template>
   <div class="footer2">
 
-    <div class="footer2-container container w-75 py-4 d-flex align-items-center justify-content-between">
+    <div class="footer2-container container w-75 d-flex align-items-center justify-content-between">
 
-      <div class="link-container d-flex flex-column flex-wrap">
+      <div class="link-container d-flex flex-column flex-wrap py-4">
 
-        <div class="p-2" v-for="item in footerList">
+        <div class="px-3" v-for="item in footerList">
 
           <h3 class="text-light">{{ item.title }}</h3>
 
@@ -80,8 +80,9 @@ export default {
 
       </div>
 
-      <div>
-        <img src="../assets/img/dc-logo-bg.png" alt="">
+      <div class="dc-image">
+
+
       </div>
 
     </div>
