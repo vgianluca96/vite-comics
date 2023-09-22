@@ -1,7 +1,26 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
-h1 {
-    div {
-        color: red;
+
+$dc-blue-primary: #0282F9;
+$dc-dark-primary: #1C1C1C;
+$dc-dark-secondary: #303030;
+$dc-light-pimary: #ffffff;
+
+nav {
+    ul {
+        list-style: none;
+
+        a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+            color: black;
+        }
     }
+}
+
+main {
+    background-color: $dc-dark-primary;
+    color: $dc-light-pimary;
 }

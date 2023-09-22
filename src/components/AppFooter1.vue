@@ -1,15 +1,17 @@
 <script>
 
 export default {
-  name: 'HelloWorld'
+  name: 'AppFooter1'
 }
 
 </script>
 
 <template>
-  <h1>
-    Hello world
-  </h1>
+  <div>
+    <h1>
+      CIAO
+    </h1>
+  </div>
 </template>
 
 <style></style>
