@@ -8,13 +8,7 @@ export default {
     AppHeader,
     AppMain,
     AppFooter1
-  },
-  data() {
-    return {
-
-    }
   }
-
 }
 </script>
 

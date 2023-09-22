@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-  <main>
+  <main class="container w-75 px-0">
     <div class="p-4">
       <h1>content goes here</h1>
     </div>
