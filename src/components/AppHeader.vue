@@ -26,17 +26,18 @@ export default {
 
     <nav>
 
-      <div class="container w-75 d-flex align-items-center py-2">
-        <div class="col-4 d-flex">
+      <div class="container w-75 d-flex align-items-center justify-content-between py-2">
+        <div class="d-flex">
           <img src="../assets/img/dc-logo.png" alt="">
         </div>
 
-        <div class="col-8 d-flex justify-content-center">
+        <div class="d-flex justify-content-end">
           <ul class="text-uppercase list-group list-group-horizontal">
 
-            <li class="px-2 fw-bold" v-for="item in listItems">
+            <li class="px-3 fw-bold" v-for="item in listItems">
               <a href="javascript:void(0)">{{ item }}</a>
             </li>
+
           </ul>
 
         </div>

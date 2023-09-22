@@ -6,7 +6,11 @@ $dc-dark-primary: #1C1C1C;
 $dc-dark-secondary: #303030;
 $dc-light-primary: #ffffff;
 
-nav {
+body {
+    min-width: 1200px;
+}
+
+header {
     ul {
         list-style: none;
 
