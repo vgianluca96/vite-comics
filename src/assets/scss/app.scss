@@ -4,6 +4,7 @@
 $dc-blue-primary: #0282F9;
 $dc-dark-primary: #1C1C1C;
 $dc-dark-secondary: #303030;
+$dc-dark-black: #000000;
 $dc-light-primary: #ffffff;
 $dc-grey-primary: #a3a3a3;
 
@@ -20,7 +21,11 @@ header {
             text-align: center;
             text-decoration: none;
             font-size: 12px;
-            color: black;
+            color: $dc-dark-black;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     }
 }
@@ -34,6 +39,15 @@ main {
     background-color: $dc-blue-primary;
     color: $dc-light-primary;
     font-size: 14px;
+
+    a {
+        text-decoration: none;
+        color: $dc-light-primary;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
 .footer2 {
@@ -51,10 +65,13 @@ main {
                 text-decoration: none;
                 color: $dc-grey-primary
             }
+
+            a:hover {
+                text-decoration: underline;
+            }
         }
 
         .dc-image {
-
             width: 600px;
             height: 100%;
             background-image: url('../img/dc-logo-bg.png');

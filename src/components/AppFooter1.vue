@@ -44,7 +44,9 @@ export default {
           <img :src="item.image" alt="" class="w-100">
         </div>
         <div class="ps-1">
-          {{ item.text }}
+          <a href="javascript:void(0)">
+            {{ item.text }}
+          </a>
         </div>
 
       </div>

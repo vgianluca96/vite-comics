@@ -30,7 +30,9 @@ export default {
           FOLLOW US
         </div>
         <div class="px-2" v-for="logo in socialLogos">
-          <img :src="logo" alt="">
+          <a href="javascript:void(0)">
+            <img :src="logo" alt="">
+          </a>
         </div>
       </div>
 
