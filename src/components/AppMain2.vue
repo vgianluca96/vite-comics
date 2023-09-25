@@ -17,11 +17,11 @@ export default {
 </script>
 
 <template>
-  <div class="container w-75 py-4">
+  <div class="main2 container w-75 py-5">
 
-    <h4>
+    <div class="current">
       <span class="badge bg-primary rounded-0">CURRENT SERIES</span>
-    </h4>
+    </div>
 
     <div class="row">
       <AppMain2Comics :thumb="comic.thumb" :series="comic.series" v-for="comic in comics" />

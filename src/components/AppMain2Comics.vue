@@ -21,7 +21,7 @@ export default {
     <div class="w-100 ratio ratio-1x1">
       <img :src="thumb" class="comic-img w-100" alt="...">
     </div>
-    <div class="py-2 text-uppercase fw-bold">
+    <div class="comic-series py-2 text-uppercase">
       {{ series }}
     </div>
   </div>

@@ -46,12 +46,18 @@ main {
     }
 
     .main2 {
-        .comic-img {
-            object-fit: cover;
+
+        position: relative;
+
+        .current {
+            font-size: 30px;
+            position: absolute;
+            top: -25px;
+            left: -10px;
         }
 
-        div {
-            font-size: 14px;
+        .comic-img {
+            object-fit: cover;
         }
 
     }
@@ -117,6 +123,7 @@ main {
     }
 
     .follow {
-        color: $dc-blue-primary
+        color: $dc-blue-primary;
+        font-size: 20px;
     }
 }
