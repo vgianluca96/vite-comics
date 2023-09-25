@@ -1,4 +1,4 @@
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@use "../../../node_modules/bootstrap/scss/bootstrap";
 
 
 $dc-blue-primary: #0282F9;
@@ -33,6 +33,11 @@ header {
 main {
     background-color: $dc-dark-primary;
     color: $dc-light-primary;
+
+    .main1 {
+        height: 400px;
+        background-image: url('../img/jumbotron.jpg');
+    }
 }
 
 .footer1 {
