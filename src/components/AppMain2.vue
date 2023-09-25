@@ -20,7 +20,7 @@ export default {
   <div class="container w-75 py-4">
 
     <h4>
-      <span class="badge bg-primary">CURRENT SERIES</span>
+      <span class="badge bg-primary rounded-0">CURRENT SERIES</span>
     </h4>
 
     <div class="row">
@@ -28,7 +28,7 @@ export default {
     </div>
 
     <div class="d-flex justify-content-center">
-      <button class="btn btn-primary fw-bold">
+      <button class="btn btn-primary fw-bold rounded-0">
         LOAD MORE
       </button>
     </div>

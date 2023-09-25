@@ -9,24 +9,28 @@ $dc-light-primary: #ffffff;
 $dc-grey-primary: #a3a3a3;
 
 body {
-    // min-width: 1200px;
+    min-width: 900px;
 }
 
 header {
-    ul {
-        list-style: none;
+
+    .active {
+        border-bottom: 4px solid $dc-blue-primary;
 
         a {
-            display: block;
-            text-align: center;
-            text-decoration: none;
-            font-size: 12px;
-            color: $dc-dark-black;
+            color: $dc-blue-primary;
         }
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
+    a {
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        color: $dc-dark-black;
+    }
+
+    a:hover {
+        color: $dc-blue-primary;
     }
 }
 
@@ -45,6 +49,11 @@ main {
         .comic-img {
             object-fit: cover;
         }
+
+        div {
+            font-size: 14px;
+        }
+
     }
 }
 
@@ -59,7 +68,7 @@ main {
     }
 
     a:hover {
-        text-decoration: underline;
+        color: $dc-dark-primary;
     }
 }
 
@@ -80,7 +89,7 @@ main {
             }
 
             a:hover {
-                text-decoration: underline;
+                color: $dc-light-primary;
             }
         }
 

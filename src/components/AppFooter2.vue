@@ -62,7 +62,7 @@ export default {
 
     <div class="footer2-container container w-75 d-flex align-items-center justify-content-between">
 
-      <div class="link-container d-flex flex-column flex-wrap py-4">
+      <div class="col-6 link-container d-flex flex-column flex-wrap py-4">
 
         <div class="px-3" v-for="item in footerList">
 
