@@ -37,6 +37,14 @@ main {
     .main1 {
         height: 400px;
         background-image: url('../img/jumbotron.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main2 {
+        .comic-img {
+            object-fit: cover;
+        }
     }
 }
 
