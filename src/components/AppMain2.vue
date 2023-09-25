@@ -1,5 +1,6 @@
 <script>
 import DCcomics from '../comics.json';
+import AppMain2Comics from './AppMain2Comics.vue';
 
 export default {
   name: 'AppMain2',
@@ -7,6 +8,9 @@ export default {
     return {
       comics: DCcomics
     }
+  },
+  components: {
+    AppMain2Comics
   }
 }
 
@@ -20,14 +24,7 @@ export default {
     </h4>
 
     <div class="row">
-      <div class="col-4 col-md-3 col-lg-2 py-2" v-for="comic in comics">
-        <div class="w-100 ratio ratio-1x1">
-          <img :src="comic.thumb" class="comic-img w-100" alt="...">
-        </div>
-        <div class="py-2 text-uppercase">
-          <h6>{{ comic.series }}</h6>
-        </div>
-      </div>
+      <AppMain2Comics :thumb="comic.thumb" :series="comic.series" v-for="comic in comics" />
     </div>
 
     <div class="d-flex justify-content-center">
