@@ -1,12 +1,12 @@
 <script>
-import DCcomics from '../comics.json';
+import comics from '../comics.json';
 import AppMain2Comics from './AppMain2Comics.vue';
 
 export default {
   name: 'AppMain2',
   data() {
     return {
-      comics: DCcomics
+      comics
     }
   },
   components: {
